@@ -2,7 +2,7 @@ cask "beadbox" do
   version "0.3.0"
   sha256 "TODO"
 
-  url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-arm64.dmg"
+  url "https://github.com/nmelo/beadbox/releases/download/v#{version}/Beads-#{version}-arm64.dmg"
   name "Beadbox"
   desc "Desktop app for the beads issue tracker"
   homepage "https://github.com/beadbox/beadbox"
@@ -10,11 +10,11 @@ cask "beadbox" do
   depends_on macos: ">= :ventura"
   depends_on arch: :arm64
 
-  app "Beadbox.app"
+  app "Beads.app"
 
   zap trash: [
-    "~/Library/Application Support/com.beadbox.app",
-    "~/Library/Caches/com.beadbox.app",
-    "~/Library/Preferences/com.beadbox.app.plist",
+    "~/Library/Application Support/com.nmelo.beads-ui",
+    "~/Library/Caches/com.nmelo.beads-ui",
+    "~/Library/Preferences/com.nmelo.beads-ui.plist",
   ]
 end
