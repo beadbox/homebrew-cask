@@ -1,8 +1,8 @@
 cask "beadbox" do
-  version "0.4.8"
-  sha256 "e605da422074b35c03c0e50565449fb3fdd5cc707329925f0afb4bd719f72029"
+  version "0.4.9"
+  sha256 "16398b17dd9d321f1dab416326e5b48fa237148e4fdbe1ccb3c96842c16458f2"
 
-  url "https://github.com/beadbox/beadbox/releases/download/v0.4.8/Beads-0.4.8-arm64.dmg"
+  url "https://github.com/beadbox/beadbox/releases/download/v0.4.9/Beads-0.4.9-arm64.dmg"
   name "Beadbox"
   desc "Desktop app for the beads issue tracker"
   homepage "https://github.com/beadbox/beadbox"
