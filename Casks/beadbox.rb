@@ -10,7 +10,7 @@ cask "beadbox" do
   depends_on macos: ">= :ventura"
   depends_on arch: :arm64
 
-  app "Beads.app"
+  app "Beadbox.app"
 
   zap trash: [
     "~/Library/Application Support/com.nmelo.beads-ui",
