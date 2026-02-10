@@ -1,6 +1,6 @@
 cask "beadbox" do
   version "0.4.12"
-  sha256 "6e493c6833a54887ac14a4aa4c8b1f37cfe6916980a7565e39fc950441e7777c"
+  sha256 "72d44d10a510aa0ed72c0e5d7087815c23038b87f6afa0170b442cf4a01df36d"
 
   url "https://github.com/beadbox/beadbox/releases/download/v0.4.12/Beadbox_0.4.12_aarch64.dmg"
   name "Beadbox"
