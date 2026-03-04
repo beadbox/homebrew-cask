@@ -1,13 +1,13 @@
 cask "beadbox" do
-  version "0.16.1"
+  version "0.16.2"
 
   on_arm do
-    sha256 "3ea06e71d5251f2ccaaf69d026ed1df59fe784c10416c71f53ebf26f55551624"
+    sha256 "61e25e16d71238b85a25f356ea87f719a4e7cc4441883e4d7403aa0df6c3a3cc"
     url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-arm64.dmg"
   end
 
   on_intel do
-    sha256 "27a50a02f24bd90266fd435911acfbe0fb87363dbe1358e8eeb5722c54e93506"
+    sha256 "ecb71a122e08d4286369be13104b3e6baacd651fd9135cf077e1398ca2022fc5"
     url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-x64.dmg"
   end
 
