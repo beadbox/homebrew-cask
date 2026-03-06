@@ -7,7 +7,7 @@ cask "beadbox" do
   end
 
   on_intel do
-    sha256 "a74fed84d21d61b23ca0ee4981a8f915d42a5a967c85dfed0ec453f5045a9747"
+    sha256 "bc9a55a36691e67e3dfc093f0226803f55433cba6cd80c0f4ba86aee57b8c45f"
     url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-x64.dmg"
   end
 
