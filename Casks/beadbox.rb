@@ -1,15 +1,10 @@
 cask "beadbox" do
-  version "0.18.0"
+  version "0.19.0"
 
-  on_arm do
-    sha256 "0a13fb226dcf3055be6ff90d8460937f505c73ec12ce19327faa25aba154ed52"
-    url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-arm64.dmg"
-  end
+  arch arm: "arm64"
 
-  on_intel do
-    sha256 "16ce86ac530bbc5dc9860741369bb715329b0165f60b735a161f3a8f8708568a"
-    url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-x64.dmg"
-  end
+  sha256 "fa17f9c41804ac17a1aec3985b32fad3989b5145340eccf20ff46055a54d46ab"
+  url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-arm64.dmg"
 
   name "Beadbox"
   desc "Desktop app for the beads issue tracker"
