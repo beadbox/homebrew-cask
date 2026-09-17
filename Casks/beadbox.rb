@@ -1,16 +1,17 @@
 cask "beadbox" do
-  version "0.26.1"
+  version "0.26.2"
 
   arch arm: "arm64"
 
-  sha256 "049fbc0f1fe323b51a0aeb1f7f515f8dae1ba20b4694272f46a6f3c1866e6086"
+  sha256 "c3e5eb22fd32f47fd463d353e2387564d967a13bda77b2971e473b38e3286397"
   url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-arm64.dmg"
 
   name "Beadbox"
   desc "Desktop app for the beads issue tracker"
   homepage "https://github.com/beadbox/beadbox"
 
-  depends_on macos: ">= :ventura"
+  depends_on arch: :arm64
+  depends_on macos: :ventura
 
   app "Beadbox.app"
 
