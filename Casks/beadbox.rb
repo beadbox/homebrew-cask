@@ -1,9 +1,9 @@
 cask "beadbox" do
-  version "0.31.0"
+  version "0.32.0"
 
   arch arm: "arm64"
 
-  sha256 "443729b4f17ed4a69f3ffb8516949b7677433a66b7017b96feb47232e3b506e9"
+  sha256 "535431a5a0a8dc4f565a303d10174f9b4655a9c95513279a088db83562a26451"
   url "https://github.com/beadbox/beadbox/releases/download/v#{version}/Beadbox-#{version}-macOS-arm64.dmg"
 
   name "Beadbox"
